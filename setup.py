@@ -3,10 +3,9 @@ from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.3"
+VERSION="0.0.1"
 AUTHOR="Rajsekhar Reddy"
 DESRCIPTION="This is a first FSDS Nov batch Machine Learning Project"
-
 REQUIREMENT_FILE_NAME="requirements.txt"
 
 
@@ -26,6 +25,6 @@ name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description=DESRCIPTION,
-packages=find_packages(), 
+packages=find_packages(),
 install_requires=get_requirements_list()
 )
